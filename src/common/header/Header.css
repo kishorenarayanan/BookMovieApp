@@ -1,0 +1,90 @@
+.header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 16px;
+    background: #222;
+    height: 36px;
+    /* display: flex; */
+}
+
+
+
+img {
+    background-color: #ff7f7f;
+    height: 35px;
+  animation-name: spin;
+  animation-duration: 8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  transform: rotate(180deg);
+  top: 8px;
+  left: 16px;
+}
+@keyframes spin {
+    from {
+        transform:perspective(400px) rotateY(0);
+    }
+    to {
+        transform:perspective(400px) rotateY(360deg);
+    }
+}
+/* .login-options{
+    display: flex;
+    align-items: "center";
+    
+}
+.username{
+    align-items: "center";
+    
+}
+.password{
+    align-self: "center";
+    
+} */
+.book-button {
+        line-height: 30px;
+        margin-right: 100px;
+        position:absolute; 
+         right: 0; 
+        float: right;
+    
+}
+.login-button{
+    line-height: 30px;
+        margin-right: 20px;
+        position:absolute;
+         right:0; 
+       float: right;
+}
+.ok-login{
+    /* line-height: 30px;
+        margin-right: 20px;
+        position:absolute;
+         right:0;  */
+       /* float: right; */
+       align-self: center;
+}
+
+/* Button{
+    line-height: 30px;
+        margin-right: 20px;
+        position:absolute;
+         right:0; 
+       float:right;
+       -ms-flex-item-align:unset;
+} */
+.formControl {
+    width: 240px;
+}
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
+}
