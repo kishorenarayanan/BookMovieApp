@@ -221,7 +221,7 @@ const logoutHandler = async () => {
         return (
             <div className="header">
 
-                    <img src={logo} alt="" img />
+                    <img src={logo} alt="" className="img" img />
                     <span style={{ float: "right" }}>
                 {button}
                 {session ? <Button variant="contained" color="default" style={{ marginLeft: "10px" }} onClick={logoutHandler}>Logout</Button> : <Button variant="contained" color="default" style={{ marginLeft: "10px" }} onClick={openModal}>Login</Button>
